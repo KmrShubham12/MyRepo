@@ -1,8 +1,5 @@
-version:'1.0'
-steps:
-  build-example:
-    type: build
-    description:yaml example
-    image-name: codefresh-io/image
-    dockerfile: Dockerfile
-    tag: latest
+build_id: 12345
+project_name: MyAwesomeProject
+branch: main
+commit_hash: abcdef123456
+author: John Doe
